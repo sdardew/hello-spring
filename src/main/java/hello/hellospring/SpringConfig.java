@@ -24,7 +24,7 @@ public class SpringConfig {
     }
 
     @Bean
-    public TimeTzraceAop timeTraceAop() {
+    public TimeTraceAop timeTraceAop() {
         return new TimeTraceAop();
     }
 
